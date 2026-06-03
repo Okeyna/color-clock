@@ -1,10 +1,17 @@
+import { useState } from 'react'
 import { format } from "date-fns";
 
+
 function App() {
+  const [date, setDate] = useState(format(new Date(), 'yyyy-MM-dd HH:mm:ss'));
+
+  setInterval(() => {
+    setDate(format(new Date(), 'yyyy-MM-dd HH:mm:ss'))
+  }, 1000);
 
   return (
     <div className="App">
-      <p>Date: {format(new Date(), 'yyyy-MM-dd HH:mm:ss')}</p>
+      <p>Date: {date}</p>
     </div>
   )
 }

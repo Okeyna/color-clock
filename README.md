@@ -1,16 +1,30 @@
-# React + Vite
+# Dynamic Color Clock with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This project is a simple React application designed to display a dynamic digital clock that shows the current date and time. Built as part of a productivity dashboard widget, the clock updates in real-time and features a colorful, visually appealing design.
 
-Currently, two official plugins are available:
+## Scenario
+As a junior developer on a team building a productivity dashboard, you are tasked with creating a clock widget that:
+- Displays the current date and time dynamically.
+- Updates every second.
+- Has a clean, modern, and colorful UI.
+- Is structured using React components and managed via npm.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Real-time clock display (hours, minutes, seconds)
+- Current date display
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Prerequisites
+- Node.js and npm installed
+- Basic knowledge of React and JavaScript
+- A code editor (e.g., VS Code)
 
-## Expanding the ESLint configuration
+## Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository** (if applicable):
+   ```bash
+   git clone repo
+   cd dynamic-color-clock
+   npm install
+   npm run dev
